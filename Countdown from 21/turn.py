@@ -9,7 +9,6 @@ def play_human_turn(n):
             print("Sorry, you can only remove 1,2,3 coins and not more than what's available")
             
     # 3. If the human wins, indicate that and return 0
-    # You must implement this function
     pass
 
 def play_computer_turn(n):
@@ -23,5 +22,5 @@ def play_computer_turn(n):
     return n - coins_to_be_taken
     # 2. If computer wins, indicate that and return 0
     # 3. return number of coins remaining
-    # You must implement this function 
+   
     pass
